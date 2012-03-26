@@ -4,7 +4,7 @@
 main ()
 {
 	setbuf(stdout, NULL); 
-	p = fork();
+	int p = fork();
 	switch (p)
 	{
 		case -1:
